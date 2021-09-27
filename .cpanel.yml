@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/roopinve/test.labimsbazaar.com/
+    - /bin/cp * $DEPLOYPATH
